@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<style>
+
+input:focus{color:aqua;font-size: 30px;}
+ li:nth-child(2n+1){color: red;background: black;}
+
+a:visited{color:darkmagenta}
+a:link{color: green;}
+a:hover{color:darkblue}
+a:active{color: rgb(92, 143, 122);}
+
+.hidden:hover p{display: block;}
+p{background: green;padding:20px;display:none}
+
+
+h1::before{content:"hello";background: green;font-size: 20px;}
+h1::after{content:"bye";background: green;font-size: 20px;}
+li::after{content:"❤️"}
+p::before{content: "❤️";}
+
+
+
+
+
+
+</style>
+
 </head>
 <body>
-  <ol>
-      <li>shipan</li>
+  <ol >
+      <li class="2nd">shipan</li>
       <li>shipan</li>
       <li>shipan</li>
       <li>shipan</li>
@@ -16,7 +43,31 @@
 
 
   </ol>
-<h1>hello,bangladesh,how r you</h1>
-<h2>this is a new case</h2>
+<h1>bangladesh,how r you</h1>
+<h1>bangladesh,how r you</h1>
+<h1>bangladesh,how r you</h1>
+<h1>bangladesh,how r you</h1>
+<input type="email" name="email" id="">
+
+<input type="password" placeholder="password">
+
+
+
+<a href="https://www.google.com/">visit google</a>
+
+
+<div class="hidden">using the hidden filr by showing
+  <p>this a new experiments for me </p>
+
+</div>
+
+
+
+<li>girl </li>
+<li>girl </li>
+<li>girl </li>
+<li>girl </li>
+<li>girl </li>
+<li>girl </li>
 </body>
 </html>
